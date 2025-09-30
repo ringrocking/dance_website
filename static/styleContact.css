@@ -1,0 +1,42 @@
+/* *{
+    box-sizing: inherit;
+} */
+h1{
+    align-items: center;
+    color: black;
+    margin: 13px 0px;
+}
+.myInput{
+width: 40%;
+font-size: 16px;
+padding: 9px 34px;
+margin: 8px 461px;
+border: 2px solid black;
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+outline: none;
+color: black;
+
+/* padding-bottom: 34px; */
+}
+#myForm{
+    position: relative;
+    /* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; */
+}
+.btn{
+    color: white;
+    background-color: black;
+    padding: 12px 16px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 6px;
+
+}

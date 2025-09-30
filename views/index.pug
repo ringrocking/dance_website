@@ -1,0 +1,62 @@
+doctype html
+html
+  head <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    title Harry Dance Academy
+    style
+      include ../static/style.css
+      body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/logo.png")
+                |HDA 
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+section#introSection
+        div Welcome to Harry's Dance Academy
+        div.small Eat Sleep Dance Repeat
+section#missionSection
+        h2 Our Mission
+        div.card
+                h3  Dance perfection 
+                 div.card-box 
+                  div.card-img 
+                    img(src="/static/d1.png")
+                  div.card-content
+                     p This is the best dance academy of the universe  
+
+        div.card
+                h3 Dance the way as you like 
+                 div.card-box 
+                  div.card-img 
+                    img(src="/static/d2.png")
+                  div.card-content
+                     p This is the best dance academy of the universe  
+                
+        div.card
+                h3 Experts Teaching   
+                 div.card-box 
+                  div.card-img 
+                    img(src="/static/d1.png")
+                  div.card-content
+                     p This is the best dance academy of the universe  
+section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors 
+          img(src="/static/AAPL.png", alt="sponsor image", Class="spimage")
+          img(src="/static/FB.png", alt="sponsor image", Class="spimage")
+          img(src="/static/SNAP.png", alt="sponsor image", Class="spimage")
+          img(src="/static/MSFT_BIG.png", alt="sponsor image", Class="spimage")
+footer#footer
+        | Copyright © 2019 HarryAcademy.com | All Rights Reserved
